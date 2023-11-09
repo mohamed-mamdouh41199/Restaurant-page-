@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+      <!-- Link to normlize css file -->
+      <link rel="stylesheet" href="CSS/Normlize.css">
+      <!-- Link to awsemfonts -->
+      <link rel="stylesheet" href="CSS/all.min.css">
+      <!-- Link to main css file -->
+      <link rel="stylesheet" href="CSS/Booking.css">
+      <!--Link to font styles -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- start Header -->
+<header>
+    <div class="container">
+    <a href="#" class="logo">          
+        <h2>TastyToty</h2>
+    </a>
+    
+    <nav>
+        <ul>
+            <li><a href="./Design3.html">About</a></li>
+            <li><a href="./Design3.html">Services</a></li>            
+            <li><a href="./Design3.html">Features</a></li>
+            <li id="morelinks"><button>More</button></li>
+        </ul>       
+
+        <div class="more" id="more">
+            <div>
+              <img src="./images/2jpeg.jpeg" alt="">
+            </div>
+
+            <ul class="links1">
+                                  
+            </ul>
+            
+            <ul class="links2">
+              <li><a href="./Maindishes.html">
+                <i class="fa-solid fa-bowl-food"></i>Main Dishes</a></li>
+
+                <li><a href="./Menu.html">
+                  <i class="fa-solid fa-list"></i>Menu</a></li>
+
+              <li><a href="./Sweet.html">
+                <i class="fa-solid fa-cake-candles"></i>Sweets</a></li>     
+
+              <li><a href="./Booking.html">
+                <i class="fa-regular fa-calendar-days"></i>Booking</a></li>
+
+                              
+            </ul>
+          </div>   
+        
+    </nav>
+    </div>
+</header>
+
+
+<div class="Booking" id="Booking">
+    <div class="image">
+        <div class="content">
+            <h2>Any Table, Any Time, you are Welcome</h2>
+            <p>
+                You can Book your Favorit table now by sing in with your email and your phone!
+            </p>
+        </div>
+    </div>
+    <div class="form">
+        <div class="content">
+        <h3>Request A Booking</h3>
+        <form action="">
+            <input class="input" type="text" placeholder="Your Name" name="name" />
+            <input class="input" type="email" placeholder="Your Email" name="email" />
+            <input class="input" type="text" placeholder="Your Phone" name="mobile" />
+            <label> Select the date:- </label>
+            <input class="input" type="date" placeholder="Select day" name="Date" />
+            <label> Select the Time:- </label>
+            <input class="input" type="time" placeholder="Select Time" name="Time" />
+
+            <label> Chose type of table:- </label>
+
+            <select name="Tabletype" class="typetable">
+                <optgroup label="In hall">
+                    <option value="1">Single</option>
+                    <option value="2">Double</option>
+                    <option value="3">Trible</option>
+                </optgroup>
+    
+                <optgroup label="Open aria">
+                    <option value="4">Double</option>
+                    <option value="5">More</option>
+                </optgroup>
+            </select>
+
+            <input type="submit" value="Send" />
+        </form>
+        </div>
+    </div>
+    </div>
+
+
+<!-- Start Footer -->
+<div class="footer">
+    <p class="copyright"> <span>TastyToty</span> Made With Mohamed Mamdouh</p>
+</div>
+<!-- End  -->
+
+<script src="./index.js"></script>
+</body>
+</html>
